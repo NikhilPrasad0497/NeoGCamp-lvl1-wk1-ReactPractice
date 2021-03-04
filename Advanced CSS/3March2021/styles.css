@@ -1,0 +1,70 @@
+/* div{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px; 
+     align-items: center;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+
+article{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    max-width: 400px;
+    margin: 4px 1px;
+    justify-content: space-evenly;
+}
+
+article > p{
+    flex-grow: 1;
+}
+
+ .article3, .bottom{
+    align-self: flex-end;
+}  */
+
+
+/* Heading SuperScript  */
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.superscript{
+    position: relative;
+    bottom: 0.75rem;
+    font-size: 0.5em;
+}
+
+.card{
+    display: flex;
+    max-width: 200px;
+    height: 500px;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.card > p{
+    text-align: justify;
+}
+
+.thunbnail {
+    position: relative;
+}
+
+.thunbnail .remove{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.notification{
+    position: fixed;
+    bottom: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
